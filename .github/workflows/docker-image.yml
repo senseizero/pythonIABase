@@ -26,6 +26,6 @@ jobs:
       - name: Build and Push Image
         uses: docker/build-push-action@v3
         with:
-          tags: ghcr.io/senseizero/pythonIABasea:latest
+          tags: ghcr.io/senseizero/pythoniabase:latest
           platforms: linux/amd64,linux/arm64
           push: true
