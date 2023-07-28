@@ -1,4 +1,5 @@
 FROM python:3.10.6-slim AS builder
+LABEL org.opencontainers.image.source="https://github.com/senseizero/pythonIABase"
 
 WORKDIR /usr/src/app
 
